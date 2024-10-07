@@ -1,25 +1,14 @@
 # Dagger - A Caption Editor for Stable Diffusion
 
-![image](https://github.com/kznrluk/dagger/assets/29700428/9bfaae0a-382b-4e9c-bfff-12c17ec4d878)
-
-[日本語版READMEはこちら](https://github.com/kznrluk/dagger/blob/main/README-JA.md)
-
 Dagger is an application that strongly supports the creation of comma-separated caption files commonly used in Stable Diffusion. You can use it through your web browser.
-
-[Try it out](https://dagger.anyfrog.net)
 
 It is designed to be simple yet powerful, enabling you to organize your dataset before LoRA training or FineTuning more efficiently.
 
 ## How to Use
 Dagger treats an image file and its caption file with the same name as a pair.
 
-![image](https://github.com/kznrluk/dagger/assets/29700428/94dad028-3f58-417f-87ea-2581f23347e0)
-
-
 ### 0. Preparations
 Dagger is compatible with the output files from WD14-Tagger. You can pre-tag your data if necessary.
-
-https://github.com/toriato/stable-diffusion-webui-wd14-tagger
 
 ### 1. Importing Images
 
@@ -41,19 +30,13 @@ You can use CTRL+A to select all images currently being filtered.
 
 After importing images, all tags will be displayed in the FILTER BY TAGS at the bottom of the screen. You can filter images by selecting these tags. The number displayed next to each tag indicates how many images have that tag.
 
-![image](https://github.com/kznrluk/dagger/assets/29700428/a59ab230-f3f7-4e8e-9423-2e7db87af1ba)
-
 By clicking in normal mode, only images that **have** the selected tag(s) will be displayed.
 
 When clicking in CTRL mode, only images that **do not have** the selected tag(s) will be displayed. If you click the delete button of a tag while in CTRL mode, that tag will be removed from all images.
 
-![image](https://github.com/kznrluk/dagger/assets/29700428/90508290-c71b-4cc4-a600-55844c0bc956)
-
 #### 2-3. Trimming
 
 You can trim images. Pressing Save will overwrite the image with its trimmed version. Pressing Save as New will save a copy of the image.
-
-![image](https://github.com/kznrluk/dagger/assets/29700428/b1ba3604-ca03-473c-95c7-76ca423163ca)
 
 ### 3. Saving as Zip
 
